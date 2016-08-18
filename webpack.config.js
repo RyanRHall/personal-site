@@ -1,12 +1,12 @@
 module.exports = {
-  context: __dirname + "/js",
-  entry: "./root",
+  context: __dirname,
+  entry: "./js/entry.js",
   output: {
-      path: __dirname + "/js",
+      path: __dirname + "/public",
       filename: "bundle.js"
   },
   resolve: {
-    extensions: ["", ".js", ".jsx" ]
+    extensions: ["", ".js", ".jsx", ".css" ]
   },
   module: {
    loaders: [
@@ -17,7 +17,8 @@ module.exports = {
         query: {
           presets: ['es2015', 'react']
         }
-      }
+      },
+      { test: /\.css$/, loader: "style!css" }
     ]
    },
    devtool: 'source-maps'
