@@ -1,19 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router';
-require("./css/header");
 
 
 const TABS = {
   ["/"]: "Home",
-  about: "About",
-  portfolio: "Portfolio",
-  resume: "Resume",
+  ["/about"]: "About",
+  ["/portfolio"]: "Portfolio",
+  ["/resume"]: "Resume",
 };
 
 export default class Header extends React.Component {
 
   _generateClassName(path){
-    return (path === this.props.path) ? "selected" : "";
+    return (path === this.props.currentPath) ? "selected" : "";
   }
 
   _generateLinks(){

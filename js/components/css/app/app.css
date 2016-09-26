@@ -1,0 +1,16 @@
+header {
+  width: 100vw;
+  height: 8vh;
+  background-color: lightblue;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main{
+  width: 100vw;
+  height: 92vh;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+}
