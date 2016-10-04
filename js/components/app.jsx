@@ -2,7 +2,6 @@ import React from 'react';
 import Links from './links';
 import About from './about';
 import Portfolio from './portfolio';
-require('./css/_master');
 
 class App extends React.Component {
   constructor(props){
