@@ -2,19 +2,121 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ryan</title>
-    <link rel="stylesheet" href="public/css/reset.css" charset="utf-8">
-    <link rel="stylesheet" href="public/css/app.css" charset="utf-8">
-    <link rel="stylesheet" href="public/css/tabs.css" charset="utf-8">
-    <link rel="stylesheet" href="public/css/links.css" charset="utf-8">
-    <script type="text/javascript" src="public/bundle.js"></script>
+    <title>Ryan Hall</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Overlock|Roboto:300,500|Space+Mono" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="public/css/reset.css" />
+    <link rel="stylesheet" href="public/css/aside.css" />
+    <link rel="stylesheet" href="public/css/main.css" />
+    <link rel="stylesheet" href="public/css/header.css" />
+    <link rel="stylesheet" href="public/css/nav.css" />
+    <link rel="stylesheet" href="public/css/project.css" />
   </head>
   <body>
-    <header>
-      <div class="line"></div>
-      <span><span class="green">Ryan Hall</span></span>
-      <div class="line"></div>
-    </header>
-    <div id="app"></div>
+
+    <div id="container">
+
+      <aside>
+        <img src="public/img/me.jpg" alt="me" />
+
+        <div id="blurbs" class="accent">
+          <div>That's me!
+            <img src="./public/img/icons/arrow_up.png" />
+          </div>
+          <div>
+            <img src="./public/img/icons/arrow_down.png" />
+            Some tools I like
+          </div>
+        </div>
+
+        <div id="logos">
+          <img src="public/img/logos/rails.png" alt="rails" />
+          <img src="public/img/logos/react.png" alt="react" />
+          <img src="public/img/logos/redux.png" alt="redux" />
+          <img src="public/img/logos/node.png" alt="node" />
+          <img src="public/img/logos/jquery.png" alt="javascript" />
+          <img src="public/img/logos/nodal.png" alt="nodal" />
+          <img src="public/img/logos/html.png" alt="html" />
+          <img src="public/img/logos/css.png" alt="css" />
+          <img src="public/img/logos/javascript.png" alt="javascript" />
+          <img src="public/img/logos/ruby.png" alt="ruby" />
+          <img src="public/img/logos/python.png" alt="python" />
+        </div>
+      </aside>
+
+      <main>
+        <header>
+          <div id="name-container">
+            Ryan Hall
+          </div>
+
+          <div id="info-container">
+            <div id="address-bar">
+              http://<span>web</span>.<span>developer</span>/
+            </div>
+
+            <nav>
+              <a href="https://github.com/RyanRHall" target="_blank">
+                <img src="public/img/github.png" alt="github"/>
+              </a>
+
+              <a href="https://www.linkedin.com/in/ryan-hall-548a0b8a" target="_blank">
+                <img src="public/img/linkedin.png" alt="linkedin"/>
+              </a>
+
+              <a href="" target="_blank">
+                <img src="public/img/resume.png" alt="resume"/>
+              </a>
+            </nav>
+
+          </div>
+        </header>
+
+        <div id="border"></div>
+
+        <div id="project-blurb" class="accent">
+          Some of my favorite projects
+        </div>
+
+        <div id="proj1" class="project">
+          <div>
+            <div>
+              <h3>Repo Vision</h3>
+              <a href="https://www.npmjs.com/package/repo-vision" target="_blank">npm</a>
+              <a href="https://github.com/RyanRHall/repo-vision" target="_blank">GitHub</a>
+            </div>
+            <p>An npm package that allows developers to view an interactive graph of their local git repository. Built with <span class="blue">express</span> and <span class="purple">vis.js</span>.</p>
+          </div>
+        </div>
+
+        <div id="proj2" class="project">
+          <div>
+            <div>
+              <h3>Pick-Up</h3>
+              <a href="#">Live</a>
+              <a href="#">GitHub</a>
+            </div>
+            <p>A web applicatioin designed to help team-sports enthusiasts find and host pick-up games in their city. Built with <span class="red">rails</span>, <span class="blue">react</span>, and <span class="purple">flux</span>.</p>
+          </div>
+        </div>
+
+        <div id="proj3" class="project">
+          <div>
+            <div>
+              <h3>App Academy JumpStart</h3>
+              <a href="https://app-academy.gitbooks.io/jumpstart-beginner-track/content" target="_blank">Live</a>
+              <a href="https://github.com/appacademy/jumpstart-beginner-track" target="_blank">GitHub</a>
+            </div>
+            <p>A free, public course that introduces students to the ruby programming language. I built and ran 6 iterations of this course during my time at App Academy.</p>
+          </div>
+        </div>
+
+      </main>
+
+    </div>
+
   </body>
 </html>
