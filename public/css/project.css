@@ -29,10 +29,14 @@
 }
 
 #proj2 {
-  background-image: url('../img/projects/pickup.png');
+  background-image: url('../img/projects/ants.png');
 }
 
 #proj3 {
+  background-image: url('../img/projects/pickup.png');
+}
+
+#proj4 {
   background-image: url('../img/projects/jumpstart.png');
 }
 
