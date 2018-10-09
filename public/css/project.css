@@ -9,6 +9,7 @@
   box-shadow: -6px 4px 10px #BBB;
   background-size: cover;
   background-repeat: no-repeat;
+  border: 1px solid #EEEEEE;
 }
 
 .project > div {
@@ -24,20 +25,20 @@
   opacity: 1;
 }
 
-#proj1 {
+#repo-vision {
   background-image: url('../img/projects/repo_vision.png');
 }
 
-#proj2 {
+#langtons-ant {
   background-image: url('../img/projects/ants.png');
 }
 
-#proj3 {
-  background-image: url('../img/projects/veriscope.png');
+#decentralized-medium {
+  background-image: url('../img/projects/decentralized_medium.png');
 }
 
-#proj4 {
-  background-image: url('../img/projects/jumpstart.png');
+#news-hound {
+  background-image: url('../img/projects/news_hound.png');
 }
 
 .project div div:after {
@@ -74,5 +75,4 @@
 .project p {
   margin: 10px 20px;
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
 }
