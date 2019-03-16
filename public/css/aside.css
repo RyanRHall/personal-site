@@ -39,7 +39,6 @@ aside > img {
   -ms-transform: rotate(-3deg); /* IE 9 */
   -webkit-transform: rotate(-3deg); /* Safari */
   transform: rotate(-3deg);
-  border: 1px solid #EEEEEE
 }
 
 #logos {
