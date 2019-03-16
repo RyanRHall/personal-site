@@ -1,0 +1,25 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "npx node-sass -w ./src/scss/ --output ./public/css",
+    "watch:html": "while sleep 1; do find src/html/ -name '*.html' | entr -d npx modular-html ./src/html/root.html ./index.html; done"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanRHall/personal-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanRHall/personal-site/issues"
+  },
+  "homepage": "https://github.com/RyanRHall/personal-site#readme",
+  "dependencies": {
+    "modular-html": "^0.1.5",
+    "node-sass": "^4.11.0"
+  }
+}

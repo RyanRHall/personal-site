@@ -1,6 +1,9 @@
+
+
 header {
   display: flex;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+}
 
 #name-container {
   flex: 1;
@@ -8,12 +11,14 @@ header {
   position: relative;
   top: 15px;
   font-family: 'Overlock', cursive;
-  font-size: 82px; }
+  font-size: 82px;
+}
 
 #info-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 #address-bar {
   text-align: right;
@@ -22,12 +27,15 @@ header {
   color: #ccc;
   background-color: white;
   padding: 0 10px;
-  border-radius: 20px; }
+  border-radius: 20px;
+}
 
 #address-bar span {
-  color: black; }
+  color: black;
+}
 
 #email-container {
   text-align: right;
   font-size: 22px;
-  font-family: 'Space Mono', monospace; }
+  font-family: 'Space Mono', monospace;
+}

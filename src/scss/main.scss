@@ -1,0 +1,44 @@
+
+main {
+  flex: 4;
+  padding: 10px 20px 10px 40px;
+}
+
+#about-me-section {
+  margin: 0 auto 20px auto;
+  width: 90%;
+  font-size: 18px;
+}
+
+.divider {
+  height: 8px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5fbd5+0,ccf4af+100 */
+  background: #e5fbd5; /* Old browsers */
+  background: -moz-linear-gradient(left,  #e5fbd5 0%, #ccf4af 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #e5fbd5 0%,#ccf4af 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #e5fbd5 0%,#ccf4af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5fbd5', endColorstr='#ccf4af',GradientType=1 ); /* IE6-9 */
+  width: 95%;
+  margin-left: 5%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 20px 0 20px 0;
+  -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Safari */
+  transform: rotate(-1deg);
+  font-size: 28px;
+}
+
+.red {
+  color: #E72429;
+}
+
+.blue {
+  color: #5A8FC3;
+}
+
+.purple {
+  color: #B354C4;
+}
