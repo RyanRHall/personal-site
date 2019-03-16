@@ -1,14 +1,29 @@
 
 nav {
   display: flex;
-  justify-content: space-between;;
+  justify-content: flex-end;
 }
 
 nav a img {
   height: 40px;
 }
 
+nav a {
+  margin-right: 40px;
+}
+
+nav a:last-of-type {
+  margin-right: 0;
+}
+
 nav a:hover img {
   height: 46px;
+}
+
+nav a:hover {
+  margin: -3px 37px -3px -3px;
+}
+
+nav a:last-of-type:hover {
   margin: -3px -3px;
 }

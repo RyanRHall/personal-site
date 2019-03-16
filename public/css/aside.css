@@ -34,7 +34,7 @@ aside {
 /* profile picture */
 aside > img {
   width: 100%;
-  box-shadow: -6px 4px 10px #BBB;
+  box-shadow: 6px 4px 10px #BBB;
   border-radius: 10px;
   -ms-transform: rotate(-3deg); /* IE 9 */
   -webkit-transform: rotate(-3deg); /* Safari */
