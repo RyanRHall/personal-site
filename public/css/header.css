@@ -21,7 +21,6 @@ header {
   font-family: 'Space Mono', monospace;
   color: #ccc;
   background-color: white;
-  padding: 0 10px;
   border-radius: 20px; }
 
 #address-bar span {
