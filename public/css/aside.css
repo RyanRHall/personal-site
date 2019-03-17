@@ -2,24 +2,23 @@ aside {
   flex: 1;
   padding: 20px;
   margin-right: 50px;
+  min-width: 195px;
+  max-width: 235px;
   /* profile picture */ }
   aside > img {
     width: 100%;
     box-shadow: 6px 4px 10px #BBB;
     border-radius: 10px;
     -ms-transform: rotate(-3deg);
-    /* IE 9 */
     -webkit-transform: rotate(-3deg);
-    /* Safari */
     transform: rotate(-3deg); }
 
 #blurbs {
   margin: 20px 0 40px 0; }
   #blurbs div {
+    text-align: center;
     -ms-transform: rotate(-3deg);
-    /* IE 9 */
     -webkit-transform: rotate(-3deg);
-    /* Safari */
     transform: rotate(-3deg); }
     #blurbs div:first-of-type img {
       bottom: 3px; }
@@ -38,7 +37,6 @@ aside {
   justify-content: space-between;
   margin-top: 20px;
   line-height: 80px; }
-
-#logos img {
-  height: 60px;
-  margin: 10px 0; }
+  #logos img {
+    height: 60px;
+    margin: 10px 0; }

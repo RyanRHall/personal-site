@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:scss": "npx node-sass -w ./src/scss/ --output ./public/css",
+    "watch:sass": "npx node-sass -w ./src/sass/ --output ./public/css",
     "watch:html": "while sleep 1; do find src/html/ -name '*.html' | entr -d npx modular-html ./src/html/root.html ./index.html; done"
   },
   "repository": {

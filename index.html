@@ -6,17 +6,19 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Overlock|Roboto:300|Space+Mono" rel="stylesheet">
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="public/css/reset.css" />
+  <link rel="stylesheet" href="public/css/general.css" />
   <link rel="stylesheet" href="public/css/aside.css" />
-  <link rel="stylesheet" href="public/css/main.css" />
+  <link rel="stylesheet" href="public/css/education.css" />
   <link rel="stylesheet" href="public/css/header.css" />
+  <link rel="stylesheet" href="public/css/main.css" />
   <link rel="stylesheet" href="public/css/nav.css" />
   <link rel="stylesheet" href="public/css/project.css" />
+  <link rel="stylesheet" href="public/css/climbing.css" />
   <!-- Favicon -->
   <link rel="icon" href="public/favicon.ico">
 </head>
 
-  
+
 <body>
   <div id="container">
 
@@ -84,16 +86,13 @@
 
       <div class="divider"></div>
 
-      <div class="section-header accent">
-        A few words about me:
-      </div>
+      <h1>A few words about me:</h1>
 
-      <div id="about-me-section">
+<div id="about-me-section" class="section">
   <p>
     The tech buzzwords I generally associate myself with include:
       <strong>blockchains</strong>,
       <strong>decentralization</strong>,
-      <strong>data science & ML</strong>,
       <strong>security</strong>,
       <strong>privacy</strong>, and
       <strong>civic tech</strong>.
@@ -101,81 +100,122 @@
   </p>
   <br>
   <p>
-    I am an engineer, with an eye for product, who wants to address social and political issues. I want to expand the breadth of challenges that technology can help us solve.
-  </p>
-  <!-- <p>
-    The world of software seems to offer a near limitless bag of challenging problems. I have particularly enjoyed delving into the worlds of blackchains/smart contracts and data science/machine learning. In my explorations, however, I have yet to find harder problems than those in the domain of humanity:
-  </p>
-  <ul>
-    <li>How do we build an internet that favors truth over sensationalism?</li>
-    <li>How do we give people ownership of their personal data and enable secure, permissioned sharing?</li>
-    <li>How do we build voting systems that are secure, accessible, and auditable?</li>
-  </ul>
-  <p>
-    These are hard problems - really hard problems - and I want to help answer them.
+    I am an engineer, with an eye for product, who wants to address <strong>social</strong> and <strong>political</strong> issues. I want to expand the breadth of challenges that technology can help us solve.
   </p>
   <br>
-  <p>
-    I’m an engineer that wants to address social and political issues. I want to expand the breadth of challenges that technology can help us solve.
-  </p> -->
+  <p>I have a strong background in building <strong>Rails</strong> applications and using modern <strong>JavaScript</strong> libraries like <strong>React</strong>.</p>
 </div>
 
 
       <div class="divider"></div>
 
-      <div class="section-header accent">
-        Some of my favorite projects:
+      <h1>Education:</h1>
+
+<div id="education-section" class="section">
+  <div>
+    <img src="public/img/logos/umd.png" alt="UMD">
+    <span>University of Maryland</span>
+    <span>B.S. in Physics</span>
+    <span>2014</span>
+  </div>
+  <div>
+    <img src="public/img/logos/appacademy.png" alt="App Academy">
+    <span>App Academy</span>
+    <span>Software Developer Bootcamp</span>
+    <span>2015</span>
+  </div>
+  <div>
+    <img src="public/img/logos/consensys.png" alt="ConsenSys">
+    <span>ConsenSys</span>
+    <span>Blockchain Developer Bootcamp</span>
+    <span>2018</span>
+  </div>
+  <div>
+    <img src="public/img/logos/cornell.png" alt="Cornell">
+    <span>Cornell University</span>
+    <span>M.Eng. in Computer Science</span>
+    <span>2019</span>
+  </div>
+
+</div>
+
+
+      <div class="divider"></div>
+
+      <h1>Some personal projects:</h1>
+
+<div id="projects-section" class="section">
+
+    <div class="project">
+      <div class="project-header">
+        <h2>CryptoShips</h2>
+        <a href="https://github.com/RyanRHall/CryptoShips" target="_blank">GitHub</a>
       </div>
-
-      <div id="news-hound" class="project">
-  <div>
-    <div>
-      <h3>News Hound</h3>
-      <a href="https://github.com/news-hound" target="_blank">GitHub</a>
-      <a href="https://vimeo.com/236949419" target="_blank">Presentation</a>
+      <br>
+      <p>A deentralized application for providing scholarships to MOOCs using cryptocurrencies.</p>
+      <br>
+      <p>
+        CryptoShips is an ongoing personal project where users can anonymously sponsor scholarships to courses hosted by MOOC providers like Coursera. CryptoShips is powered by Ethereum smart contracts, and the application's front end was built using React and Drizzle.
+      </p>
     </div>
-    <p>A virus scanner for your news feed. News Hound is an ongoing project built with the
-    intention of combating the fake news epidemic. This <span class="blue">browser extension</span>
-    uses IBM's Watson <span class="red">NLP</span> API to scan a user's news feed for potentially malicious content.</p>
-  </div>
+
+    <div class="project">
+      <div class="project-header">
+        <h2>News Hound</h2>
+        <a href="https://github.com/news-hound" target="_blank">GitHub</a>
+        <a href="https://vimeo.com/236949419" target="_blank">Presentation</a>
+      </div>
+      <br>
+      <p>A virus scanner for your news feed.</p>
+      <br>
+      <p>
+        News Hound was a project spun out of the Debug Politics Hackachon in San Francisco, Nov 2016. The intent was to combat the fake news epidemic by building a browser extension that would continuously survey a user's news feed for malicious content.
+      </p>
+    </div>
+
+    <!-- <div class="project">
+      <div class="project-header">
+        <h2>Decentralized Medium Clone</h2>
+        <a href="https://github.com/RyanRHall/medium_clone_on_ethereum" target="_blank">GitHub</a>
+      </div>
+      <br>
+      <p>An article publishing site powered by Ethereum Smart Contracts</p>
+      <br>
+      <p>
+        A functional DAPP built on <span class="purple">Ethereum</span>'s smart contracts. This application simulates Medium's self-publishing interface, but here readers can choose to support article authors by paying them with Ether. Built with <span class="red">Truffle</span>, <span class="red">Drizzle</span>, and <span class="blue">React</span>.
+      </p>
+    </div> -->
+
+    <div class="project">
+      <div class="project-header">
+        <h2>Repo Vision</h2>
+        <a href="https://github.com/RyanRHall/medium_clone_on_ethereum" target="_blank">GitHub</a>
+        <a href="https://www.npmjs.com/package/repo-vision" target="_blank">npm</a>
+      </div>
+      <br>
+      <p>Visualize the state of your local repository</p>
+      <br>
+      <p>
+        An npm package that allows developers to view an interactive graph of their local git repository. Built with <span class="blue">express</span> and <span class="purple">vis.js</span>.
+      </p>
+    </div>
+
+
+
 </div>
 
-<div id="decentralized-medium" class="project">
-  <div>
-    <div>
-      <h3>Decentralized Medium Clone</h3>
-      <a href="https://github.com/RyanRHall/medium_clone_on_ethereum" target="_blank">GitHub</a>
-    </div>
-    <p>A functional DAPP built on <span class="purple">Ethereum</span>'s smart contracts. This application simulates Medium's
-      self-publishing interface, but here readers can choose to support article authors by paying them
-      with Ether. Built with <span class="red">Truffle</span>, <span class="red">Drizzle</span>, and <span class="blue">React</span>.
-  </div>
-</div>
 
-<div id="repo-vision" class="project">
-  <div>
-    <div>
-      <h3>Repo Vision</h3>
-      <a href="https://www.npmjs.com/package/repo-vision" target="_blank">npm</a>
-      <a href="https://github.com/RyanRHall/repo-vision" target="_blank">GitHub</a>
-    </div>
-    <p>An npm package that allows developers to view an interactive graph of their
-      local git repository. Built with <span class="blue">express</span> and
-      <span class="purple">vis.js</span>.</p>
-  </div>
-</div>
+      <div class="divider"></div>
 
-<div id="langtons-ant" class="project">
-  <div>
-    <div>
-      <h3>Langton's Ant</h3>
-      <a href="https://ryanrhall.github.io/langtons-ant/" target="_blank">Live</a>
-      <a href="https://github.com/RyanRHall/langtons-ant" target="_blank">GitHub</a>
-    </div>
-    <p>An interactive implementation of the <span class="red">Langton's Ant</span>
-      turing machine. Place multiple ants on the grid and watch their behavior evolve.
-      Built with <span class="blue">JQuery</span>.</p>
-  </div>
+      <h1>When I'm not coding, I'm climbing:</h1>
+
+<div id="climbing-section" class="section">
+  <img src="public/img/climbing/climb_1.jpg" alt="">
+  <img src="public/img/climbing/climb_2.jpg" alt="">
+  <img src="public/img/climbing/climb_3.jpg" alt="">
+  <img src="public/img/climbing/climb_4.jpg" alt="">
+  <img src="public/img/climbing/climb_5.jpg" alt="">
+  <img src="public/img/climbing/climb_6.jpg" alt="">
 </div>
 
 

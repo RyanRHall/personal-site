@@ -2,10 +2,8 @@ main {
   flex: 4;
   padding: 10px 20px 10px 40px; }
 
-#about-me-section {
-  margin: 0 auto 20px auto;
-  width: 90%;
-  font-size: 18px; }
+.section {
+  padding: 0 5% 20px 5%; }
 
 .divider {
   height: 8px;
@@ -20,24 +18,4 @@ main {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5fbd5', endColorstr='#ccf4af',GradientType=1 );
   /* IE6-9 */
-  width: 95%;
-  margin-left: 5%; }
-
-.section-header {
-  text-align: center;
-  margin: 20px 0 20px 0;
-  -ms-transform: rotate(-1deg);
-  /* IE 9 */
-  -webkit-transform: rotate(-1deg);
-  /* Safari */
-  transform: rotate(-1deg);
-  font-size: 28px; }
-
-.red {
-  color: #E72429; }
-
-.blue {
-  color: #5A8FC3; }
-
-.purple {
-  color: #B354C4; }
+  width: 100%; }
