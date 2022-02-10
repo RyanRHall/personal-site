@@ -20,6 +20,6 @@
   "homepage": "https://github.com/RyanRHall/personal-site#readme",
   "dependencies": {
     "modular-html": "^0.1.5",
-    "node-sass": "^4.11.0"
+    "node-sass": "^7.0.0"
   }
 }
